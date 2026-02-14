@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #f2f4f7;
+    height: 100%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.box1 {
+    height: auto;
+    width: 550px;
+
+
+
+}
+
+.fb-logo {
+    width: 300px;
+
+}
+
+.p {
+    font-size: 30px;
+}
+
+.box2 {
+    height: auto;
+    width: 420px;
+    ;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+
+
+
+}
+
+input {
+    width: 380px;
+    height: 50px;
+    font-size: 17px;
+    padding-left: 10px;
+    border-color: #f0f1f2;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    outline: none;
+
+
+}
+
+
+input:hover {
+    border-color: #3169d2;
+}
+
+
+.btn {
+    background-color: #0866ff;
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fefeff;
+    font-size: 19px;
+    font-weight: bold;
+    border-style: none;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: center;
+    color: #327dff;
+    margin-bottom: 15px;
+
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+
+.create-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #42b72a;
+    color: #f6fdf9;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 90px;
+    border: none;
+}
+
+.bio {
+    position: absolute;
+    margin: 30px 0px 0px 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+span:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 180px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px 100px 40px 100px;
+    color: rgb(139, 139, 139);
+    font-size: 12px;
+}
+
+#hr {
+    margin-top: 20px;
+
+}
+
+.footer-list>a {
+    word-spacing: 12px;
+    line-height: 1.5;
+
+}
+
+.footer-list>a:hover {
+    text-decoration: underline;
+
+}
